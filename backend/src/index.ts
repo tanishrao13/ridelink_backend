@@ -17,7 +17,6 @@ connectDB();
 // Middleware
 const allowedOrigins = [
     process.env.CLIENT_URL || "http://localhost:5173",
-    "https://ridelink-gold.vercel.app",
     "http://localhost:5173"
 ];
 app.use(cors({ 
